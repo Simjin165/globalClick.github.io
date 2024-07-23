@@ -23,6 +23,14 @@ function retrieveClicks(){
 } */
 // Retrieve
 
+window.onload = function(){
+	retrieveClicks();
+	document.getElementById("clicks").innerHTML = 2;
+}
+function retrieveClicks(){
+	document.getElementById("clicks").innerHTML = localStorage.getItem("clickSave");
+} 
+
 function authenticateUser(){
 		var userName=document.getElementById("username");
 		var usernameLabel=document.getElementById("usernamelabel");
