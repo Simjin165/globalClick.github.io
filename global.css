@@ -1,0 +1,18 @@
+.ttl{
+	text-align: center
+}
+
+.main{
+	text-align: center
+}
+body{
+	background-image: url("earth2.jpg");
+	background-size: cover;
+	
+	color: white;
+}
+.bg-image{
+	filter: blur(1px);
+	
+	
+}
