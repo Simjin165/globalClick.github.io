@@ -8,6 +8,8 @@ function clicked(){
 	
 }
 /*
+	How the heck do I get it to save neither of these work!!!
+ 
 function store(){
 	fs.appendFile("saveFile.txt", "fuck", function(err) {
 			if (err) throw err;
@@ -23,13 +25,6 @@ function retrieveClicks(){
 } */
 // Retrieve
 
-window.onload = function(){
-	retrieveClicks();
-	document.getElementById("clicks").innerHTML = 2;
-}
-function retrieveClicks(){
-	document.getElementById("clicks").innerHTML = localStorage.getItem("clickSave");
-} 
 
 function authenticateUser(){
 		var userName=document.getElementById("username");
